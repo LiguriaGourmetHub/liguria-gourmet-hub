@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Liguria Gourmet Hub</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+.hero{
+    background:linear-gradient(135deg,#0f5132,#198754);
+    color:white;
+    padding:100px 20px;
+    text-align:center;
+}
+.logo{
+    width:140px;
+    height:140px;
+    margin:0 auto 30px;
+    border-radius:50%;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    color:#0f5132;
+    font-weight:bold;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:80px 20px;
+}
+.card{
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+.section-title{
+    font-size:42px;
+    margin-bottom:20px;
+}
+.footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+@media(max-width:768px){
+.grid{
+grid-template-columns:1fr;
+}
+.section-title{
+font-size:32px;
+}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="logo">
+        <div style="font-size:42px;">🌿</div>
+        <div style="font-size:28px;">LGH</div>
+    </div>
+
+    <h1 style="font-size:64px;margin-bottom:20px;">Liguria Gourmet Hub</h1>
+
+    <p style="max-width:800px;margin:auto;font-size:22px;line-height:1.7;">
+        Premium olasz gourmet termékek és autentikus liguriai manufaktúrák összekötése magyar és nemzetközi partnerekkel.
+    </p>
+</section>
+
+<section class="container">
+    <div class="grid">
+        <div>
+            <h2 class="section-title">Az alapító</h2>
+
+            <p style="font-size:20px;line-height:1.8;">
+                A Liguria Gourmet Hub alapítója Krisztián, aki Liguria régiójában él és közvetlen kapcsolatban dolgozik helyi olasz termelőkkel és prémium manufaktúrákkal.
+            </p>
+
+            <p style="font-size:20px;line-height:1.8;">
+                Célunk valódi olasz minőséget és autentikus mediterrán életérzést eljuttatni partnereinkhez.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3 style="font-size:28px;">Mivel foglalkozunk?</h3>
+
+            <p style="line-height:1.8;font-size:18px;">
+                Olasz prémium gourmet márkák képviseletével, üzletfejlesztéssel és partnerkapcsolatok építésével foglalkozunk.
+            </p>
+
+            <h3 style="font-size:28px;margin-top:40px;">Mi a célunk?</h3>
+
+            <p style="line-height:1.8;font-size:18px;">
+                Hosszú távú együttműködések kialakítása éttermekkel, delikát üzletekkel és prémium viszonteladókkal.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <h2 style="font-size:40px;">Kapcsolat</h2>
+
+    <p style="font-size:20px;">info@liguriagourmethub.com</p>
+    <p style="font-size:20px;">Liguria, Olaszország</p>
+
+    <div style="margin-top:30px;color:#aaa;">
+        © 2026 Liguria Gourmet Hub
+    </div>
+</footer>
+
+</body>
+</html>
