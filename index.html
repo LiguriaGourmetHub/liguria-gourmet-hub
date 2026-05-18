@@ -1,127 +1,148 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Liguria Gourmet Hub</title>
+
 <style>
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
-    color:#222;
+margin:0;
+font-family:Georgia,serif;
+background:#f5efe4;
+color:#222;
 }
+
 .hero{
-    background:linear-gradient(135deg,#0f5132,#198754);
-    color:white;
-    padding:100px 20px;
-    text-align:center;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.75)),
+url('https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=1800&q=80');
+background-size:cover;
+background-position:center;
+color:#f5deb3;
+text-align:center;
+padding:120px 20px;
 }
+
+.hero h1{
+font-size:72px;
+margin:20px 0 10px;
+}
+
+.hero p{
+font-size:22px;
+letter-spacing:2px;
+}
+
 .logo{
-    width:140px;
-    height:140px;
-    margin:0 auto 30px;
-    border-radius:50%;
-    background:white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    color:#0f5132;
-    font-weight:bold;
-    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+width:220px;
+margin:auto;
+display:block;
+filter:drop-shadow(0 10px 30px rgba(0,0,0,.5));
 }
+
 .container{
-    max-width:1100px;
-    margin:auto;
-    padding:80px 20px;
+max-width:1100px;
+margin:auto;
+padding:90px 20px;
 }
-.card{
-    background:white;
-    border-radius:20px;
-    padding:40px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
 }
-.grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:40px;
+
+.logo-box{
+background:white;
+padding:40px;
+border-radius:25px;
+box-shadow:0 20px 50px rgba(0,0,0,.12);
+text-align:center;
 }
-.section-title{
-    font-size:42px;
-    margin-bottom:20px;
+
+.logo-box img{
+width:100%;
+max-width:380px;
 }
+
+h2{
+font-size:52px;
+margin-bottom:20px;
+}
+
+p{
+font-size:20px;
+line-height:1.8;
+}
+
 .footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
+background:#111;
+color:#f5deb3;
+text-align:center;
+padding:70px 20px;
 }
-@media(max-width:768px){
-.grid{
+
+@media(max-width:800px){
+.about{
 grid-template-columns:1fr;
 }
-.section-title{
-font-size:32px;
+
+.hero h1{
+font-size:48px;
 }
 }
 </style>
 </head>
+
 <body>
 
 <section class="hero">
-    <div class="logo">
-        <div style="font-size:42px;">🌿</div>
-        <div style="font-size:28px;">LGH</div>
-    </div>
+<img src="logo.jpg" class="logo">
 
-    <h1 style="font-size:64px;margin-bottom:20px;">Liguria Gourmet Hub</h1>
+<h1>Liguria Gourmet Hub</h1>
 
-    <p style="max-width:800px;margin:auto;font-size:22px;line-height:1.7;">
-        Premium olasz gourmet termékek és autentikus liguriai manufaktúrák összekötése magyar és nemzetközi partnerekkel.
-    </p>
+<p>Premium Italian Gourmet Connections</p>
 </section>
 
 <section class="container">
-    <div class="grid">
-        <div>
-            <h2 class="section-title">Az alapító</h2>
 
-            <p style="font-size:20px;line-height:1.8;">
-                A Liguria Gourmet Hub alapítója Krisztián, aki Liguria régiójában él és közvetlen kapcsolatban dolgozik helyi olasz termelőkkel és prémium manufaktúrákkal.
-            </p>
+<div class="about">
 
-            <p style="font-size:20px;line-height:1.8;">
-                Célunk valódi olasz minőséget és autentikus mediterrán életérzést eljuttatni partnereinkhez.
-            </p>
-        </div>
+<div class="logo-box">
+<img src="logo.jpg" alt="Liguria Gourmet Hub Logo">
+</div>
 
-        <div class="card">
-            <h3 style="font-size:28px;">Mivel foglalkozunk?</h3>
+<div>
 
-            <p style="line-height:1.8;font-size:18px;">
-                Olasz prémium gourmet márkák képviseletével, üzletfejlesztéssel és partnerkapcsolatok építésével foglalkozunk.
-            </p>
+<h2>Rólunk</h2>
 
-            <h3 style="font-size:28px;margin-top:40px;">Mi a célunk?</h3>
+<p>
+A Liguria Gourmet Hub alapítója Holovitz Krisztián, aki Liguria régiójában él és közvetlen kapcsolatban dolgozik helyi olasz termelőkkel, családi manufaktúrákkal és prémium gourmet márkákkal.
+</p>
 
-            <p style="line-height:1.8;font-size:18px;">
-                Hosszú távú együttműködések kialakítása éttermekkel, delikát üzletekkel és prémium viszonteladókkal.
-            </p>
-        </div>
-    </div>
+<p>
+Célom, hogy autentikus olasz gourmet termékeket és megbízható üzleti kapcsolatokat hozzak el magyar partnereim számára közvetlenül Liguriából.
+</p>
+
+<p>
+Prémium olasz termelők, gourmet márkák és családi manufaktúrák képviseletével, partnerkapcsolatok építésével és üzletfejlesztéssel foglalkozom.
+</p>
+
+</div>
+
+</div>
+
 </section>
 
 <footer class="footer">
-    <h2 style="font-size:40px;">Kapcsolat</h2>
 
-    <p style="font-size:20px;">info@liguriagourmethub.com</p>
-    <p style="font-size:20px;">Liguria, Olaszország</p>
+<h2>Kapcsolat</h2>
 
-    <div style="margin-top:30px;color:#aaa;">
-        © 2026 Liguria Gourmet Hub
-    </div>
+<p>info@liguriagourmethub.com</p>
+
+<p>Liguria, Olaszország</p>
+
 </footer>
 
 </body>
